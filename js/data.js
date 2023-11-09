@@ -66,6 +66,7 @@
             project.Timeline_and_Milestones = project.Timeline_and_Milestones.replace(/\n/g, '<br>');
         });
             document.getElementById('currentIndexDisplay').innerHTML = currentIndex + 1;
+        document.getElementById('list-count').innerHTML = project_capstone.length;
     }
 
 
