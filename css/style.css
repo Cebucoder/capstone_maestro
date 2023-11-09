@@ -1,0 +1,348 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+/* 
+#27374D
+#526D82
+#9DB2BF
+#DDE6ED
+
+rgb(39, 55, 77)
+rgb(82, 109, 130)
+rgb(157, 178, 191)
+rgb(221, 230, 237)
+*/
+body{
+    background: #f7f7f7 !important;
+}
+br{
+    line-height: .5px;
+}
+.main-container{
+    background: #f7f7f7 !important;
+    width: 100%;
+    min-height: 100vh;
+    padding: 60px;
+}
+.navigation-var{
+    width: 100%;
+    height: auto;
+    background: #fff;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 10px 20px -20px;
+
+}
+.github{
+    border:1px solid #27374D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 10px 25px;
+    color: #27374D;
+    font-weight: 500;
+    transition: 0.3s;
+}
+.github ion-icon{
+    font-size: 24px;
+    margin-right: 10px;
+}
+.github:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.github:active{
+    transform: scale(1.05);
+}
+.share-me{
+    font-size: 24px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    position: relative;
+    color: #27374D;
+}
+.share-me small{
+    font-size: 16px;
+    display: none;
+}
+.share-me:hover small{
+    display: flex;
+    transition: 0.3s;
+}
+.share-me ion-icon{
+    display: block;
+    margin-right: 10px;
+    position: relative;
+}
+.share-me:hover{
+    background: #f7f7f7;
+    color: #27374D;
+    cursor: pointer;
+    padding: 10px 25px;
+    border: 1px solid #27374D;
+}
+.share-me:active{
+    transform: scale(0.98);
+}
+.generateBtn{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid #27374D;
+    background: #fff;
+    color: #27374D;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.generateBtn:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    background: #f7f7f7;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 15px 20px -20px;
+
+}
+.generateBtn:active{
+    transform: scale(1);
+    background: #27374dd7;
+    color: #fff;
+}
+button{
+    border: none;
+    outline: none;
+}
+
+.title-cont{
+    /* width: 100%; */
+    text-align: center;
+    margin: 40px 0;
+    color: #27374D;
+    position: relative;
+}
+.title-cont h1{
+    font-weight: 500;
+    font-size: 24px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+.title-cont h1::before{
+    position: absolute;
+    content: '';
+    bottom: -5px;
+    width: 200px;
+    height: 3px;
+    background: #27374D;
+    border-radius: 50px;
+}
+.title-cont h1:hover{
+    cursor: pointer;
+}
+
+.project-cont{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.project-proposal-cont{
+    width: 60%;
+    min-height: 400px;
+    border-radius: 10px;
+    background: #fff;
+    padding: 30px 40px;
+    position: relative;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px -3px;
+}
+.project-header{
+    font-size: 18px;
+    font-weight: 500;
+    color: #27374dd7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.project-header span{
+    font-size: 20px;
+    margin-right: 9px;
+    color: gold;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background: #f7f7f7;
+}
+
+/* project-timeline-cont */
+.project-timeline-cont{
+    width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+.project-timeline,.expected-deleverable{
+    width: 100%;
+    padding: 30px 40px;
+    min-height: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px -3px;
+    position: relative;
+    background: #ffff;
+    margin-bottom: 20px;
+}
+
+.project-description{
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    font-size: 15px;
+}
+.project-cont p{
+    color: #27374dd7;
+    font-size: 15px;
+}
+.project-description div{
+    margin: 15px 0;
+    margin-bottom: 5px;
+}
+.project-description span div{
+    color: #27374D;
+    font-weight: 500;
+    font-size: 16px;
+}
+.des-fot{
+    margin-top: 20px;
+    color: #27374D;
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 20px 15px;
+    border-top: .5px solid #27374D;
+    background: #27374D;
+    color: #fff;
+}
+.footer-social{
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.footer-social span{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+    border-radius: 5px;
+    font-size: 24px;
+    transition: 0.3s;
+}
+.footer-social span:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.star-repo{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.star-repo span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    padding: 10px 10px;
+}
+.star-repo small{
+    padding-left: 5px;
+}
+
+@media (max-width:935px){
+ .main-container{
+    padding: 60px 30px;
+ }
+}
+@media (max-width:870px){
+    .main-container{
+       padding: 60px 15px;
+    }
+    .project-timeline,.expected-deleverable{
+        margin-left: 0;
+    }
+    .project-cont{
+        flex-direction: column;
+    }
+    .project-proposal-cont{
+        width: 100%;
+    }
+    .project-timeline-cont{
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width:400px){
+    .main-container{
+        padding: 40px 10px;
+    }
+    .project-timeline-cont{
+        width: 100%;
+        margin-top: 15px;
+    }
+    .project-timeline, .expected-deleverable,.project-proposal-cont{
+        padding: 20px 25px;
+    }
+    .project-cont p{
+        font-size: 13px;
+    }
+    .project-header div{
+        font-size: 15px;
+    }
+    .project-header span{
+        width: 30px;
+        height: 30px;
+        font-size: 18px;
+    }
+    .title-cont h1{
+        font-size: 18px;
+    }
+    .navbar{
+        padding: 0 30px;
+    }
+}
+

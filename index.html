@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+
+    <div class="navigation-var">
+        <div class="navbar">
+            <div class="github">
+                <ion-icon name="logo-github"></ion-icon>
+                Github
+            </div>
+            <div class="share-me">
+                <ion-icon name="share-social-outline"></ion-icon>
+                <small>Share Me</small>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-container">
+        <button class="generateBtn" onclick="GenerateTitle()">Generate</button>
+
+
+        <!-- title-cont -->
+        <div class="title-cont">
+            <h1 id="title">Capstone Title</h1>
+        </div>
+
+        <div class="project-cont">
+            <!-- project proposal -->
+            <div class="project-proposal-cont">
+                <div class="project-header">
+                    <div style="display: flex; align-items: center;">
+                        <span>
+                            <ion-icon name="bulb-outline"></ion-icon>
+                        </span>
+                        <label>Project Guide</label>
+                    </div>
+                    <div>
+                        <small id="currentIndexDisplay">0</small>
+                        /
+                        <small>60</small>
+                    </div>
+                </div>
+                <div class="project-description">
+                    <span>
+                        <div>Project description: </div>
+                        <p id="description"></p>
+                    </span>
+                    <span>
+                        <div style="font-weight: 600;font-size: 18px;">Project Proposal</div>
+                        <div>Problem Statement:</div>
+                        <p id="Problem Statement"></p>
+                    </span>
+                    <span>
+                        <div>Project Goal:</div>
+                        <p id="Project Goals"></p>
+                    </span>
+                    <span>
+                        <div>Literature Review:</div>
+                        <p id="Literature Review"></p>
+                    </span>
+                    <span>
+                        <div>Data Collection (if applicable):</div>
+                        <p id="Data Collection (if applicable)"></p>
+                    </span>
+                    <span>
+                        <div>Development or Implementation:</div>
+                        <p id="Development or Implementation"></p>
+                    </span>
+                    <span>
+                        <div>Testing and Evaluation:</div>
+                        <p id="Testing and Evaluation"></p>
+                    </span>
+                    <span>
+                        <div>Documentation:</div>
+                        <p id="Documentation"></p>
+                    </span>
+                    <span>
+                        <div>Final Report and Presentation:</div>
+                        <p id="Final Report and Presentation"></p>
+                    </span>
+                    <span>
+                        <div>Review and Feedback:</div>
+                        <p id="Review and Feedback"></p>
+                    </span>
+                    <span>
+                        <div>Revisions and Improvements:</div>
+                        <p id="Revisions and Improvements"></p>
+                    </span>
+                    <span>
+                        <div>Final Submission:</div>
+                        <p id="Final Submission"></p>
+                    </span>
+                    <span>
+                        <div>Reflection and Discussion:</div>
+                        <p id="Reflection and Discussion"></p>
+                    </span>
+                    
+                </div>
+
+                <div class="des-fot">
+                    <small>
+                        Developer: <span id="developer_name"></span> November 9, 2023 -  
+                        <span id="month"> </span>,
+                        <span id="day"></span>,
+                        <span id="year"> </span>
+                    </small>
+                    <script>
+                        let currentDate = new Date();
+                        let day = currentDate.getDate();
+                        let month = currentDate.toLocaleString('en-US', { month: 'long' });
+                        let year = currentDate.getFullYear();
+                      
+                        document.getElementById('day').textContent = day;
+                        document.getElementById('month').textContent = month;
+                        document.getElementById('year').textContent = year;
+                    </script>                      
+                </div>
+
+            </div>
+
+            <div class="project-timeline-cont">
+                <div class="project-timeline methodology">
+                    <div class="project-header methodology">
+                        <div style="display: flex;align-items: center;">
+                            <span>
+                                <ion-icon name="list-outline"></ion-icon>
+                            </span>
+                            <div>Project Methodology</div>
+                        </div>
+                    </div>
+    
+                    <div class="project-description">
+                        <span>
+                            <div>Methodology:</div>
+                            <p id="Methodology"></p>
+                        </span>
+                    </div>
+                </div>
+                <div class="project-timeline">
+                    <div class="project-header timeline">
+                        <div style="display: flex;align-items: center;">
+                            <span>
+                                <ion-icon name="layers-outline"></ion-icon>
+                            </span>
+                            <div>Expected Project</div>
+                        </div>
+                    </div>
+    
+                    <div class="project-description">
+                        <span>
+                            <div>Expected Deliverables: </div>
+                            <p id="Expected_Deliverables"></p>
+                        </span>
+                    </div>
+                </div>
+                <div class="expected-deleverable">
+                    <div class="project-header ">
+                        <div style="display: flex;align-items: center;">
+                            <span>
+                                <ion-icon name="time-outline"></ion-icon>
+                            </span>
+                            <div>Project Timeline</div>
+                        </div>
+                    </div>
+    
+                    <div class="project-description">
+                        <span>
+                            <div>Timeline and Milestones: </div>
+                            <p id="Timeline_and_Milestones"></p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <small>Created by Cebucoder</small>
+        <div class="footer-social">
+            <span><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></span>
+            <span><svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></span>
+        </div>
+        <div class="star-repo">
+            <span>
+                <span><ion-icon name="git-branch-outline"></ion-icon></span>
+                <small id="repo">0</small>
+            </span>
+            <span>
+                <span><ion-icon name="star-outline"></ion-icon></span>
+                <small id="star">0</small>
+            </span>
+        </div>
+    </footer>
+
+</body>
+<script src="./js/data.js"></script>
+<script src="./js/gituser.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Script -->
+<!-- 
+
+
+Project Proposal:
+Write a detailed project proposal that outlines the scope, objectives, and expected outcomes of your capstone project. This proposal should include a problem statement, project goals, methodology, and expected deliverables.
+
+Research and Background:
+Conduct thorough research on the topic or problem related to your capstone project. This research will provide you with the background knowledge and insights needed to address the issue effectively.
+
+Project Plan:
+Create a project plan that outlines the tasks, timeline, and milestones for your capstone project. This plan should help you stay organized and on track throughout the project.
+
+Literature Review:
+Conduct a literature review to understand the existing work and research related to your capstone project. This will help you identify gaps in the current knowledge and inform your approach.
+
+Data Collection (if applicable):
+If your project involves data collection, gather the necessary data through surveys, experiments, or other means. Ensure that your data collection methods align with your project's objectives.
+
+Development or Implementation:
+Depending on your project, begin developing software, conducting experiments, building prototypes, or implementing your proposed solution. Follow your project plan closely to meet deadlines.
+
+Testing and Evaluation:
+Test your project's components or solutions rigorously. Ensure they meet the project's requirements and objectives. Collect and analyze data for evaluation.
+
+Documentation:
+Maintain thorough documentation of your project, including code, research notes, design documents, and any other relevant information. This documentation will be valuable for your final report.
+
+Final Report and Presentation:
+Write a comprehensive final report that documents your project's entire journey, including the problem statement, methodology, results, challenges, and conclusions. Prepare a presentation to communicate your findings and outcomes effectively.
+
+Review and Feedback:
+Seek feedback from your academic advisor, mentor, or peers at different stages of your project. Their insights can help improve the quality of your work.
+
+Revisions and Improvements:
+Be prepared to make revisions and improvements based on feedback and ongoing evaluation. Capstone projects often undergo multiple iterations.
+
+Final Submission:
+Once your project is complete and you are satisfied with the results, submit your final report and present your findings to your academic institution.
+
+Reflection and Discussion:
+Reflect on the entire capstone project experience and discuss what you have learned, the challenges you faced, and how your project contributes to your field of study.
+
+ -->
