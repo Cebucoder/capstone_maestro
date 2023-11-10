@@ -48,15 +48,18 @@ function GenerateTitle(){
         currentIndex++;
     }
 }
-    function gBck() {
-        const currentURL = window.location.href;
-        if (currentURL.includes('data.json')) {
-            window.location.replace('err.webp');
-        }
-    }
-gBck();
+
 // Call fetchData to initiate fetching data
 fetchData();
+
+
+function gBck() {
+    const currentURL = window.location.href;
+    if (currentURL.includes('data.json')) {
+        window.location.replace('err.webp');
+    }
+}
+gBck();
 
 
 
