@@ -22,266 +22,37 @@
           "Reflection and Discussion": "A reflection on the entire capstone project experience will be included in the final report, discussing what has been learned, the challenges faced, and how the project contributes to the field of inventory management."
         }
       },
-      {
-        "title": "Environmental Impact Analysis of Renewable Energy Sources",
-        "description": "Study the environmental effects of various renewable energy technologies.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "Machine Learning for Predictive Healthcare Analytics",
-        "description": "Utilize machine learning to predict patient health outcomes.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "Smart Home Automation with IoT",
-        "description": "Create a home automation system using Internet of Things (IoT) technology.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "E-commerce Website Development",
-        "description": "Design and build a secure and user-friendly e-commerce website.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "Mobile App for Language Learning",
-        "description": "Develop a mobile app to help users learn new languages effectively.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "Data Visualization Dashboard for Sales Analytics",
-        "description": "Create a dashboard to visualize and analyze sales data for a retail company.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "AI-Powered Virtual Personal Assistant",
-        "description": "Build a virtual personal assistant using AI for tasks and scheduling.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "Blockchain-based Supply Chain Tracking",
-        "description": "Implement a blockchain solution for transparent supply chain tracking.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "Augmented Reality Educational App",
-        "description": "Develop an AR app to enhance the educational experience for students.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "AI-Powered Chatbot for Customer Support",
-        "description": "Create an AI-driven chatbot to enhance customer support services.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "Remote Health Monitoring System",
-        "description": "Build a system to remotely monitor patients' health conditions and send alerts if necessary.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "Predictive Maintenance for Industrial Machinery",
-        "description": "Implement predictive maintenance techniques to reduce downtime in industrial settings.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "Online Art Gallery Platform",
-        "description": "Develop an online platform for artists to showcase and sell their artwork.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "Weather Forecasting App with Machine Learning",
-        "description": "Create a weather app that uses ML to provide accurate forecasts.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "Elderly Care Companion Robot",
-        "description": "Design a robotic companion for the elderly to assist with daily tasks.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "Blockchain-based Voting System",
-        "description": "Implement a secure and transparent voting system using blockchain technology.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "Automated Home Garden System",
-        "description": "Build an automated garden system for urban homes to grow fresh produce.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "Social Network for Book Lovers",
-        "description": "Create a social platform for book enthusiasts to connect and share their favorite reads.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "Language Translation App for Travelers",
-        "description": "Develop an app that translates spoken language in real-time for travelers.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "Traffic Management System with IoT",
-        "description": "Create a smart traffic management system using Internet of Things technology.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "AI-Based Music Recommendation App",
-        "description": "Build an app that recommends music based on users' preferences using AI.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "Smart Office Space Utilization",
-        "description": "Develop a system to optimize office space utilization and improve productivity.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "Virtual Reality Gaming Experience",
-        "description": "Create an immersive VR gaming experience for players.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "Data Privacy and Security Framework",
-        "description": "Build a framework to enhance data privacy and security for businesses.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "Online Learning Platform for STEM Education",
-        "description": "Design a platform to support STEM education through online courses and resources.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "AI-Enhanced Image Recognition for Healthcare",
-        "description": "Develop an image recognition system for medical diagnoses using AI.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "Blockchain-based Document Verification",
-        "description": "Implement a blockchain solution for secure document verification.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "Smart Traffic Signal Optimization",
-        "description": "Optimize traffic signals in real-time to reduce congestion and improve traffic flow.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "Eco-Friendly Transportation App",
-        "description": "Create an app that promotes eco-friendly transportation options and reduces emissions.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "Robot-Assisted Rehabilitation for Patients",
-        "description": "Develop a robot-assisted system for physical therapy and rehabilitation.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "AI-Driven Content Recommendation Engine",
-        "description": "Create a recommendation engine for personalized content suggestions using AI.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "Online Marketplace for Handcrafted Goods",
-        "description": "Build an online marketplace for artisans to sell their handmade products.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "Predictive Maintenance for Vehicles",
-        "description": "Implement predictive maintenance for vehicles to reduce breakdowns and repairs.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "3D Printing Automation System",
-        "description": "Design an automated 3D printing system for rapid prototyping and production.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "AI-Powered Language Translation Chatbot",
-        "description": "Build a chatbot that offers real-time language translation and conversation assistance using AI.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "Smart Recycling Bins with IoT",
-        "description": "Create smart recycling bins that notify waste collection services when they are full.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "Personal Finance and Budgeting App",
-        "description": "Develop a mobile app to help users manage their personal finances and budgets.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "Elderly Health Monitoring with Wearable Devices",
-        "description": "Build a system that monitors the health of the elderly using wearable devices and alerts caregivers.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "Blockchain-based Digital Identity Verification",
-        "description": "Implement a secure digital identity verification system using blockchain technology.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "Virtual Reality Museum Tour",
-        "description": "Create a virtual museum tour experience using VR technology.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "Automated Language Translation Tool",
-        "description": "Develop a tool that translates text and documents to different languages automatically.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "Predictive Analytics for Stock Market",
-        "description": "Use predictive analytics to forecast stock market trends and make investment recommendations.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "Food Delivery Optimization Algorithm",
-        "description": "Design an algorithm to optimize food delivery routes and reduce delivery times.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "AI-Powered Music Composition Software",
-        "description": "Create software that generates original music compositions using AI techniques.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "Smart Parking Management System",
-        "description": "Develop a system for efficient parking space management in crowded areas.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "Health and Fitness Tracking App",
-        "description": "Build an app that tracks users' health and fitness activities and provides insights.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "Blockchain-based Voting System for Organizations",
-        "description": "Implement a secure blockchain voting system for organizations and associations.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "AI-Powered Document Summarization Tool",
-        "description": "Create a tool that summarizes lengthy documents and articles using AI-driven algorithms.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "Smart Home Security System with Facial Recognition",
-        "description": "Design a smart security system that recognizes faces and enhances home security.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "Automated Crop Monitoring with Drones",
-        "description": "Create a drone-based system for monitoring crop health and detecting issues.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "AI-Enhanced Fraud Detection for Financial Institutions",
-        "description": "Build a system using AI to detect and prevent fraudulent activities in financial transactions.",
-        "developer_name": "Cebucoder"
-      },
-      {
-        "title": "Online Travel Planning and Booking Platform",
-        "description": "Develop a platform for travelers to plan and book trips, accommodations, and activities.",
-        "developer_name": "Cebucoder"
-      },
+    
+    
+      
+     
+      
+      
+      
+      
+      
+      
+     
+      
+      
+
+
+      
+      
+      
+      
+      
+      
+      
+      
+
+      
+      
+      
+      
+      
+      
+
       {
         "title": "Predictive Analytics for Disease Outbreaks",
         "description": "Use predictive analytics to forecast disease outbreaks and allocate resources efficiently.",
