@@ -65,7 +65,7 @@
                     fetch('version.json')
                         .then(response => response.json())
                         .then(data => {
-                            document.getElementById('version').textContent = data.version;
+                            document.getElementById('version').textContent ='v' + data.version;
                             console.log(data.version);
                         })
                         .catch(error => console.error('Error fetching version:', error));
