@@ -64,3 +64,6 @@ Special thanks to Daniel Abellana (Cebucoder) for the dedication and expertise t
 Embark on your capstone journey with confidence and excellence. Capstone-Maestro is your trusted companion, providing the resources and support you need to turn your capstone project into a success.
 
 Explore Capstone-Maestro today and elevate your capstone experience to new heights
+
+<img width="948" alt="cpstne" src="https://github.com/Cebucoder/capstone_maestro/assets/55612034/3d9d27d5-7b6d-4a79-9bd2-6ee20d7283c8">
+
