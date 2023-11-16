@@ -1,0 +1,28 @@
+name: Update Version
+
+on:
+  push:
+    branches:
+      - main
+  deployment:
+    types:
+      - deployment
+
+jobs:
+  update-version:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set Version
+        run: echo "{\"version\":\"$(git describe --tags --always --dirty)\"}" > version.json
+
+      - name: Commit Version Update
+        run: |
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor }}@users.noreply.github.com"
+          git add version.json
+          git commit -m "Update version [skip ci]" || exit 0
+          git push

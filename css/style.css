@@ -78,6 +78,7 @@ br{
     align-items: center;
     position: relative;
     color: #27374D;
+    margin-left: 10px;
 }
 .share-me small{
     font-size: 16px;
@@ -313,6 +314,11 @@ footer{
     .project-timeline-cont{
         width: 100%;
         margin-top: 30px;
+    }
+}
+@media (max-width:500px){
+    .navbar{
+        padding: 0 15px;
     }
 }
 

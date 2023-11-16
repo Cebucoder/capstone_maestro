@@ -55,12 +55,23 @@
 
     <div class="navigation-var">
         <div class="navbar">
-            <a href="https://github.com/Cebucoder/capstone_maestro.git" style="text-decoration: none;" target="_blank">
+            <a href="https://github.com/Cebucoder/capstone_maestro.git" style="text-decoration: none; display: flex; flex-direction: row; align-items: center; position: relative;" target="_blank">
                 <div class="github">
                     <ion-icon name="logo-github"></ion-icon>
                     Github
                 </div>
+                <small id="version" style="position: absolute; right: -70px;color: #27374D; font-weight: 500;font-size: 15px;font-family: monospace;">Getting version...</small>
+                <script>
+                    fetch('version.json')
+                        .then(response => response.json())
+                        .then(data => {
+                            document.getElementById('version').textContent = data.version;
+                            console.log(data.version);
+                        })
+                        .catch(error => console.error('Error fetching version:', error));
+                </script>
             </a>
+            
             <div class="share-me">
                 <ion-icon name="share-social-outline"></ion-icon>
                 <small>Share Me</small>
