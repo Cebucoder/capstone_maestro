@@ -48,6 +48,39 @@
     </script>
 </head>
 <body>
+
+  <!-- Messenger Chat Plugin Code -->
+  <div id="fb-root"></div>
+
+  <!-- Your Chat Plugin code -->
+  <div id="fb-customer-chat" class="fb-customerchat">
+  </div>
+
+  <script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "110508758730986");
+    chatbox.setAttribute("attribution", "biz_inbox");
+  </script>
+
+  <!-- Your SDK code -->
+  <script>
+    window.fbAsyncInit = function() {
+      FB.init({
+        xfbml            : true,
+        version          : 'v18.0'
+      });
+    };
+
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+
+
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MZ2RHML4"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -72,7 +105,7 @@
                 </script>
             </a>
             
-            <div class="share-me">
+            <div class="share-me" id="toggle-share-cont">
                 <ion-icon name="share-social-outline"></ion-icon>
                 <small>Share Me</small>
             </div>
@@ -250,6 +283,30 @@
 
     </div>
 
+
+    <!-- share me -->
+    <div class="share-category" id="share-category">
+            
+        <div class="share-link-holder">
+            <div class="close-share-cont" id="close-share-cont">
+                <ion-icon name="close" ></ion-icon>
+            </div>
+            <h3>Thank you for sharing</h3>
+            <div class="social-share">
+                <span class="fb"><ion-icon name="logo-facebook" ></ion-icon></span>
+                <span class="insta"><ion-icon name="logo-instagram" ></ion-icon></span>
+                <span class="twit"><ion-icon name="logo-twitter" ></ion-icon></span>
+                <span class="linked"><ion-icon name="logo-linkedin" ></ion-icon></span>
+            </div>
+            <div class="link-cont">
+                <input type="text" readonly="" id="ShadowCraft">
+                <span id="copy-Link"><ion-icon name="copy-outline" ></ion-icon></span>
+            </div>
+            <small id="link-copied"></small>
+        </div>
+    </div>
+    <!-- share me -->
+
     <footer>
         <small>Created by Cebucoder</small>
         <div class="footer-social">
@@ -270,6 +327,7 @@
 
 </body>
 <script src="./js/data.js"></script>
+<script src="./js/script.js"></script>
 <script src="./js/gituser.js"></script>
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
