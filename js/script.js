@@ -47,3 +47,12 @@ copyLinkButton.addEventListener('click', () => {
     // Deselect the input field
     inputElement.setSelectionRange(0, 0);
 });
+
+document.getElementById('donate_icon').addEventListener('click', function(){
+    document.getElementById('donate_con').classList.add('show_donate_con');
+});
+
+document.getElementById('close_donate_con').addEventListener('click', function(){
+    document.getElementById('donate_con').classList.remove('show_donate_con');
+});
+

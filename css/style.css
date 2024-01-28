@@ -438,7 +438,19 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 30px 10px;
+    padding: 50px 10px;
+    display: none;
+}
+.show_donate_con{
+    display: flex;
+}
+.close_donate_con{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 40px;
+    color: #fff;
+    cursor: pointer;
 }
 .donate_con figure{
     width: 100%;
