@@ -50,5 +50,42 @@ function GenerateTitle() {
     }
 }
 
+// Update the state of the buttons
+function updateButtonStates() {
+    if (currentIndex === project_capstone.length - currentIndex) {
+        next_btn.disabled = true;
+    } else {
+        next_btn.disabled = false;
+    }
+
+    if (currentIndex === 0) {
+        prev_btn.disabled = true;
+    } else {
+        prev_btn.disabled = false;
+    }
+}
+
+// prev_btn
+let next_btn = document.getElementById('next_btn');
+let prev_btn = document.getElementById('prev_btn');
+
+next_btn.addEventListener('click', () => {
+    if (currentIndex < project_capstone.length - 1) {
+        currentIndex++;
+        displayProject(currentIndex);
+    }
+});
+
+prev_btn.addEventListener('click', () => {
+    if (currentIndex > 0) {
+        currentIndex--;
+        displayProject(currentIndex);
+    }
+});
+
+
+
 // Call fetchData to initiate fetching data
 fetchData();
+
+
